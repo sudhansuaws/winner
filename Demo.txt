@@ -3,3 +3,4 @@
 Wecome to AWS class by Mr.srikanth at 7:30PM 
 Course Duration is 45 Days
 We are learning here Solution Architect Associate Level
+We also give training on necessary Linux basic commands
