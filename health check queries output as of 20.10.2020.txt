@@ -1,0 +1,803 @@
+MAX_INSERT
+----------
+      4543 
+
+MAX_INSERT24
+------------
+       15955 
+
+MAX_INSERT
+----------
+       589 
+
+MAX_INSERT24
+------------
+       15954 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+     10500 
+
+MAX_INSERT24
+------------
+       14013 
+
+MAX_INSERT
+----------
+       649 
+
+MAX_INSERT24
+------------
+       14012 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+     10386 
+
+MAX_INSERT24
+------------
+       16025 
+
+MAX_INSERT
+----------
+       612 
+
+MAX_INSERT24
+------------
+       16025 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+     12158 
+
+MAX_INSERT24
+------------
+       16511 
+
+MAX_INSERT
+----------
+       623 
+
+MAX_INSERT24
+------------
+       16514 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+     10246 
+
+MAX_INSERT24
+------------
+       12317 
+
+MAX_INSERT
+----------
+       769 
+
+MAX_INSERT24
+------------
+       12315 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      5964 
+
+MAX_INSERT24
+------------
+        7221 
+
+MAX_INSERT
+----------
+       433 
+
+MAX_INSERT24
+------------
+        7255 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+       762 
+
+MAX_INSERT24
+------------
+       13174 
+
+MAX_INSERT
+----------
+       770 
+
+MAX_INSERT24
+------------
+       13174 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      9142 
+
+MAX_INSERT24
+------------
+       18177 
+
+MAX_INSERT
+----------
+       876 
+
+MAX_INSERT24
+------------
+       17407 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      9366 
+
+MAX_INSERT24
+------------
+       13508 
+
+MAX_INSERT
+----------
+       581 
+
+MAX_INSERT24
+------------
+       13509 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      8152 
+
+MAX_INSERT24
+------------
+       13286 
+
+MAX_INSERT
+----------
+       584 
+
+MAX_INSERT24
+------------
+       13287 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      7476 
+
+MAX_INSERT24
+------------
+       14016 
+
+MAX_INSERT
+----------
+       625 
+
+MAX_INSERT24
+------------
+       14020 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      7409 
+
+MAX_INSERT24
+------------
+        8631 
+
+MAX_INSERT
+----------
+       352 
+
+MAX_INSERT24
+------------
+        8645 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      1996 
+
+MAX_INSERT24
+------------
+        4116 
+
+MAX_INSERT
+----------
+       411 
+
+MAX_INSERT24
+------------
+        4117 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+       565 
+
+MAX_INSERT24
+------------
+       11735 
+
+MAX_INSERT
+----------
+       579 
+
+MAX_INSERT24
+------------
+       11734 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      7269 
+
+MAX_INSERT24
+------------
+       11598 
+
+MAX_INSERT
+----------
+       523 
+
+MAX_INSERT24
+------------
+       11597 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      6901 
+
+MAX_INSERT24
+------------
+       10215 
+
+MAX_INSERT
+----------
+       467 
+
+MAX_INSERT24
+------------
+       10214 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      6712 
+
+MAX_INSERT24
+------------
+       12517 
+
+MAX_INSERT
+----------
+       408 
+
+MAX_INSERT24
+------------
+       12487 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      5763 
+
+MAX_INSERT24
+------------
+        6202 
+
+MAX_INSERT
+----------
+       362 
+
+MAX_INSERT24
+------------
+        6200 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+
+-----------------------------------------------------------------------------------------
+
+COUNT(1)
+--------
+   46126 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.032sec and max::312.108SEC                                                                      
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1690750508  Max_match_count:13716                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 17     
+Peak Hour: 15     
+Peak Hour: 14     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+  149968 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.025sec and max::1057.477SEC                                                                     
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1907840941  Max_match_count:40320                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 15     
+Peak Hour: 16     
+Peak Hour: 12     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+  150356 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.015sec and max::1084.767SEC                                                                     
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1907848393  Max_match_count:40333                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 16     
+Peak Hour: 15     
+Peak Hour: 12     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+  151811 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >0sec and max::989.489SEC                                                                         
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1907885521  Max_match_count:40352                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 16     
+Peak Hour: 12     
+Peak Hour: 15     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+  153807 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.016sec and max::1037.687SEC                                                                     
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1907918542  Max_match_count:40382                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 12     
+Peak Hour: 16     
+Peak Hour: 17     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+  159709 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.015sec and max::941.765SEC                                                                      
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1907942780  Max_match_count:40393                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 16     
+Peak Hour: 15     
+Peak Hour: 17     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+  127489 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.031sec and max::1058.907SEC                                                                     
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1907986016  Max_match_count:40412                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 16     
+Peak Hour: 11     
+Peak Hour: 12     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+   46709 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.078sec and max::668.185SEC                                                                      
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1908002549  Max_match_count:16958                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 12     
+Peak Hour: 03     
+Peak Hour: 13     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+  120076 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.015sec and max::1632.859SEC                                                                     
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1908004005  Max_match_count:34986                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 15     
+Peak Hour: 17     
+Peak Hour: 16     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+  152563 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.031sec and max::1740.279SEC                                                                     
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1908051527  Max_match_count:40463                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 13     
+Peak Hour: 16     
+Peak Hour: 17     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+  142229 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.031sec and max::1054.733SEC                                                                     
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1908082145  Max_match_count:40479                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 16     
+Peak Hour: 17     
+Peak Hour: 12     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+  138485 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.006sec and max::1130.204SEC                                                                     
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1908126999  Max_match_count:40512                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 12     
+Peak Hour: 16     
+Peak Hour: 13     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+  127813 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.016sec and max::1036.758SEC                                                                     
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1908137218  Max_match_count:40539                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 15     
+Peak Hour: 16     
+Peak Hour: 12     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+   81007 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.047sec and max::945.142SEC                                                                      
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1908171556  Max_match_count:40570                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 12     
+Peak Hour: 03     
+Peak Hour: 13     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+   37985 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.047sec and max::93.339SEC                                                                       
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1908185557  Max_match_count:13930                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 12     
+Peak Hour: 13     
+Peak Hour: 14     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+  117946 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.016sec and max::1267.096SEC                                                                     
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1908200434  Max_match_count:40602                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 17     
+Peak Hour: 13     
+Peak Hour: 16     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+  120757 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.018sec and max::1112.599SEC                                                                     
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1908220020  Max_match_count:40610                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 12     
+Peak Hour: 16     
+Peak Hour: 11     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+  101565 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.015sec and max::1925.06SEC                                                                      
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1692185644  Max_match_count:14077                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 14     
+Peak Hour: 12     
+Peak Hour: 11     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+  120013 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.031sec and max::995.979SEC                                                                      
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1908274376  Max_match_count:40655                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 16     
+Peak Hour: 15     
+Peak Hour: 12     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+   55221 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.031sec and max::101.873SEC                                                                      
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1692313908  Max_match_count:13978                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 12     
+Peak Hour: 03     
+Peak Hour: 13     
+
+'NEXT_LINE'
+-----------
+next_line   
+

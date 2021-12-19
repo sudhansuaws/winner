@@ -1,0 +1,731 @@
+Year Wise
+==========
+COUNT(*)	TO_CHAR(LCHG_TIME,'YYYY')
+2	2000
+3	2001
+12	2002
+56	2003
+298	2004
+1353	2005
+2096	2006
+5018	2007
+4984	2008
+46494	2009
+51707	2010
+205739	2011
+299844	2012
+359685	2013
+8538920	2014
+5342526	2015
+7055100	2016
+13562951	2017
+18841067	2018
+25919469	2019
+33416034	2020
+
+
+
+Writing base query base volume
+==========================
+ENTITY_FLAG	COUNT(1)
+CAMOL	141
+ECBF	725
+FCR	932725
+FN	50398986
+GNG	40724
+HAC	539510
+HDB	9264892
+HDO	1109245
+IFMS	1735
+LOS	1085616
+NEG	10503452
+NEWAPS	2430328
+SME	1395385
+TRA	968999
+UBS	47132
+VP	34881467
+VYMO	52296
+
+
+
+
+
+Writing Request group query data volume
+==============================
+Date      ENTITY_FLAG COUNT(1)
+--------- ----------- --------
+01-JUL-20 ECBF              62 
+01-JUL-20 GNG             6454 
+01-JUL-20 HDB            23052 
+01-JUL-20 IFMS              26 
+01-JUL-20 LOS            13896 
+01-JUL-20 NEWAPS          8705 
+01-JUL-20 SME             9061 
+01-JUL-20 TRA            10517 
+01-JUL-20 VC              4829 
+01-JUL-20 VYMO            6750 
+
+ 10 rows selected 
+
+Date      ENTITY_FLAG COUNT(1)
+--------- ----------- --------
+02-JUL-20 ECBF              27 
+02-JUL-20 GNG             6399 
+02-JUL-20 HDB            29661 
+02-JUL-20 IFMS              39 
+02-JUL-20 LOS            16792 
+02-JUL-20 NEWAPS         15800 
+02-JUL-20 SME            10875 
+02-JUL-20 TRA             9379 
+02-JUL-20 VC              2516 
+02-JUL-20 VYMO            8822 
+
+ 10 rows selected 
+
+Date      ENTITY_FLAG COUNT(1)
+--------- ----------- --------
+03-JUL-20 CAMOL              1 
+03-JUL-20 ECBF              50 
+03-JUL-20 GNG             6566 
+03-JUL-20 HDB            29959 
+03-JUL-20 IFMS              52 
+03-JUL-20 LOS            18453 
+03-JUL-20 NEWAPS         17898 
+03-JUL-20 SME            10976 
+03-JUL-20 TRA             9479 
+03-JUL-20 VC              3831 
+03-JUL-20 VYMO            9823 
+
+ 11 rows selected 
+
+Date      ENTITY_FLAG COUNT(1)
+--------- ----------- --------
+04-JUL-20 CAMOL              6 
+04-JUL-20 ECBF              19 
+04-JUL-20 GNG             6524 
+04-JUL-20 HDB            12174 
+04-JUL-20 IFMS              31 
+04-JUL-20 LOS            16304 
+04-JUL-20 NEWAPS         17057 
+04-JUL-20 SME            10559 
+04-JUL-20 TRA             8574 
+04-JUL-20 VC              4279 
+04-JUL-20 VYMO            8093 
+
+ 11 rows selected 
+
+Date      ENTITY_FLAG COUNT(1)
+--------- ----------- --------
+05-JUL-20 CAMOL              2 
+05-JUL-20 GNG             3899 
+05-JUL-20 HDB            10124 
+05-JUL-20 IFMS              25 
+05-JUL-20 LOS             2150 
+05-JUL-20 NEWAPS          2255 
+05-JUL-20 SME             1936 
+05-JUL-20 TRA             3740 
+05-JUL-20 VC              4722 
+05-JUL-20 VYMO            2438 
+
+ 10 rows selected 
+
+Date      ENTITY_FLAG COUNT(1)
+--------- ----------- --------
+06-JUL-20 CAMOL             12 
+06-JUL-20 ECBF              44 
+06-JUL-20 GNG             6533 
+06-JUL-20 HDB            34955 
+06-JUL-20 IFMS              34 
+06-JUL-20 LOS            18908 
+06-JUL-20 NEWAPS         18073 
+06-JUL-20 SME            11365 
+06-JUL-20 TRA             9904 
+06-JUL-20 VC               227 
+06-JUL-20 VYMO            9141 
+
+ 11 rows selected 
+
+Date      ENTITY_FLAG COUNT(1)
+--------- ----------- --------
+07-JUL-20 CAMOL             11 
+07-JUL-20 ECBF              25 
+07-JUL-20 GNG             5811 
+07-JUL-20 HDB            30352 
+07-JUL-20 IFMS              29 
+07-JUL-20 LOS            19499 
+07-JUL-20 NEWAPS         16854 
+07-JUL-20 SME            12175 
+07-JUL-20 TRA             9079 
+07-JUL-20 VC              4863 
+07-JUL-20 VYMO           11246 
+
+ 11 rows selected 
+
+Date      ENTITY_FLAG COUNT(1)
+--------- ----------- --------
+08-JUL-20 CAMOL             18 
+08-JUL-20 ECBF              51 
+08-JUL-20 GNG             5879 
+08-JUL-20 HDB            34534 
+08-JUL-20 IFMS              24 
+08-JUL-20 LOS            21263 
+08-JUL-20 NEWAPS         18459 
+08-JUL-20 SME            11815 
+08-JUL-20 TRA             9324 
+08-JUL-20 VC              4121 
+08-JUL-20 VYMO           10192 
+
+ 11 rows selected 
+
+Date      ENTITY_FLAG COUNT(1)
+--------- ----------- --------
+09-JUL-20 CAMOL             12 
+09-JUL-20 ECBF              16 
+09-JUL-20 GNG             5526 
+09-JUL-20 HDB            36969 
+09-JUL-20 IFMS              43 
+09-JUL-20 LOS            20247 
+09-JUL-20 NEWAPS         17701 
+09-JUL-20 SME            12672 
+09-JUL-20 TRA             9081 
+09-JUL-20 VC              4565 
+09-JUL-20 VYMO            9385 
+
+ 11 rows selected 
+
+Date      ENTITY_FLAG COUNT(1)
+--------- ----------- --------
+10-JUL-20 CAMOL              5 
+10-JUL-20 ECBF              19 
+10-JUL-20 GNG             5677 
+10-JUL-20 HDB            31275 
+10-JUL-20 IFMS              38 
+10-JUL-20 LOS            20053 
+10-JUL-20 NEWAPS         19831 
+10-JUL-20 SME            10153 
+10-JUL-20 TRA             9005 
+10-JUL-20 VC              4252 
+10-JUL-20 VYMO            6312 
+
+ 11 rows selected 
+
+Date      ENTITY_FLAG COUNT(1)
+--------- ----------- --------
+11-JUL-20 CAMOL              6 
+11-JUL-20 GNG             5299 
+11-JUL-20 HDB            12110 
+11-JUL-20 IFMS               2 
+11-JUL-20 LOS              311 
+11-JUL-20 NEWAPS          5041 
+11-JUL-20 SME            10323 
+11-JUL-20 TRA             6806 
+11-JUL-20 VC              4689 
+11-JUL-20 VYMO            3581 
+
+ 10 rows selected 
+
+Date      ENTITY_FLAG COUNT(1)
+--------- ----------- --------
+12-JUL-20 CAMOL              1 
+12-JUL-20 GNG             3250 
+12-JUL-20 HDB             7699 
+12-JUL-20 IFMS              11 
+12-JUL-20 LOS             2976 
+12-JUL-20 NEWAPS          2209 
+12-JUL-20 SME             1854 
+12-JUL-20 TRA             2988 
+12-JUL-20 VC              1039 
+12-JUL-20 VYMO            2282 
+
+ 10 rows selected 
+
+Date      ENTITY_FLAG COUNT(1)
+--------- ----------- --------
+13-JUL-20 CAMOL              8 
+13-JUL-20 ECBF              28 
+13-JUL-20 GNG             6094 
+13-JUL-20 HDB            33085 
+13-JUL-20 IFMS              55 
+13-JUL-20 LOS            22074 
+13-JUL-20 NEWAPS         19516 
+13-JUL-20 SME            12492 
+13-JUL-20 TRA             9728 
+13-JUL-20 VC               157 
+13-JUL-20 VYMO            7394 
+
+ 11 rows selected 
+
+Date      ENTITY_FLAG COUNT(1)
+--------- ----------- --------
+14-JUL-20 CAMOL             19 
+14-JUL-20 ECBF              33 
+14-JUL-20 GNG             5539 
+14-JUL-20 HDB            29394 
+14-JUL-20 IFMS              40 
+14-JUL-20 LOS            20118 
+14-JUL-20 NEWAPS         20998 
+14-JUL-20 SME            10903 
+14-JUL-20 TRA             8343 
+14-JUL-20 VC              3772 
+14-JUL-20 VYMO            9016 
+
+ 11 rows selected 
+
+Date      ENTITY_FLAG COUNT(1)
+--------- ----------- --------
+15-JUL-20 CAMOL             19 
+15-JUL-20 ECBF              41 
+15-JUL-20 GNG             5320 
+15-JUL-20 HDB            32625 
+15-JUL-20 IFMS              79 
+15-JUL-20 LOS            20223 
+15-JUL-20 NEWAPS         21016 
+15-JUL-20 SME            11181 
+15-JUL-20 TRA             8342 
+15-JUL-20 VC              4112 
+15-JUL-20 VYMO            9215 
+
+ 11 rows selected 
+
+Date      ENTITY_FLAG COUNT(1)
+--------- ----------- --------
+16-JUL-20 CAMOL             16 
+16-JUL-20 ECBF              33 
+16-JUL-20 GNG             5099 
+16-JUL-20 HDB            31988 
+16-JUL-20 IFMS              42 
+16-JUL-20 LOS            18962 
+16-JUL-20 NEWAPS         20523 
+16-JUL-20 SME            11799 
+16-JUL-20 TRA             7983 
+16-JUL-20 VC              4023 
+16-JUL-20 VYMO            8410 
+
+ 11 rows selected 
+
+Date      ENTITY_FLAG COUNT(1)
+--------- ----------- --------
+17-JUL-20 CAMOL             16 
+17-JUL-20 ECBF              17 
+17-JUL-20 GNG             5174 
+17-JUL-20 HDB            28147 
+17-JUL-20 IFMS              19 
+17-JUL-20 LOS            19002 
+17-JUL-20 NEWAPS         18306 
+17-JUL-20 SME            11498 
+17-JUL-20 TRA             7321 
+17-JUL-20 VC              4955 
+17-JUL-20 VYMO            8405 
+
+ 11 rows selected 
+
+Date      ENTITY_FLAG COUNT(1)
+--------- ----------- --------
+18-JUL-20 CAMOL             17 
+18-JUL-20 ECBF              16 
+18-JUL-20 GNG             4049 
+18-JUL-20 HDB            22362 
+18-JUL-20 IFMS              43 
+18-JUL-20 LOS            14003 
+18-JUL-20 NEWAPS         15296 
+18-JUL-20 SME             9835 
+18-JUL-20 TRA             4550 
+18-JUL-20 VC              5262 
+18-JUL-20 VYMO            4462 
+
+ 11 rows selected 
+
+Date      ENTITY_FLAG COUNT(1)
+--------- ----------- --------
+19-JUL-20 CAMOL              7 
+19-JUL-20 ECBF               2 
+19-JUL-20 GNG             2874 
+19-JUL-20 HDB             8471 
+19-JUL-20 LOS             1507 
+19-JUL-20 NEWAPS          3419 
+19-JUL-20 SME             1701 
+19-JUL-20 TRA             1918 
+19-JUL-20 VC              4120 
+19-JUL-20 VYMO            2195 
+
+ 10 rows selected 
+
+Date      ENTITY_FLAG COUNT(1)
+--------- ----------- --------
+20-JUL-20 CAMOL             17 
+20-JUL-20 ECBF              26 
+20-JUL-20 GNG             5949 
+20-JUL-20 HDB            29049 
+20-JUL-20 IFMS              36 
+20-JUL-20 LOS            18238 
+20-JUL-20 NEWAPS         21666 
+20-JUL-20 SME            10749 
+20-JUL-20 TRA             6598 
+20-JUL-20 VC               330 
+20-JUL-20 VYMO            6719 
+
+ 11 rows selected 
+
+Date      ENTITY_FLAG COUNT(1)
+--------- ----------- --------
+21-JUL-20 CAMOL             12 
+21-JUL-20 ECBF               9 
+21-JUL-20 GNG             4972 
+21-JUL-20 HDB            25908 
+21-JUL-20 IFMS              38 
+21-JUL-20 LOS            19049 
+21-JUL-20 NEWAPS         27223 
+21-JUL-20 SME            11185 
+21-JUL-20 TRA             5290 
+21-JUL-20 VC              5673 
+21-JUL-20 VYMO            7287 
+
+ 11 rows selected 
+
+Date      ENTITY_FLAG COUNT(1)
+--------- ----------- --------
+22-JUL-20 CAMOL             20 
+22-JUL-20 ECBF              15 
+22-JUL-20 GNG             5683 
+22-JUL-20 HDB            29518 
+22-JUL-20 IFMS              42 
+22-JUL-20 LOS            19193 
+22-JUL-20 NEWAPS         28892 
+22-JUL-20 SME            11545 
+22-JUL-20 TRA             5984 
+22-JUL-20 VC              8224 
+22-JUL-20 VYMO            7331 
+
+ 11 rows selected 
+
+Date      ENTITY_FLAG COUNT(1)
+--------- ----------- --------
+23-JUL-20 CAMOL              8 
+23-JUL-20 ECBF              14 
+23-JUL-20 GNG             5393 
+23-JUL-20 HDB            28744 
+23-JUL-20 IFMS              25 
+23-JUL-20 LOS            19421 
+23-JUL-20 NEWAPS         29842 
+23-JUL-20 SME            11482 
+23-JUL-20 TRA             5651 
+23-JUL-20 VC             10281 
+23-JUL-20 VYMO            6599 
+
+ 11 rows selected 
+
+Date      ENTITY_FLAG COUNT(1)
+--------- ----------- --------
+24-JUL-20 CAMOL             16 
+24-JUL-20 ECBF              12 
+24-JUL-20 GNG             5919 
+24-JUL-20 HDB            26510 
+24-JUL-20 IFMS              11 
+24-JUL-20 LOS            17076 
+24-JUL-20 NEWAPS         28097 
+24-JUL-20 SME            10402 
+24-JUL-20 TRA             5843 
+24-JUL-20 VC              9485 
+24-JUL-20 VYMO            4370 
+
+ 11 rows selected 
+
+Date      ENTITY_FLAG COUNT(1)
+--------- ----------- --------
+25-JUL-20 CAMOL              2 
+25-JUL-20 GNG             5053 
+25-JUL-20 HDB            19012 
+25-JUL-20 IFMS              27 
+25-JUL-20 LOS             7759 
+25-JUL-20 NEWAPS          6715 
+25-JUL-20 SME             3486 
+25-JUL-20 TRA             3943 
+25-JUL-20 VC             10139 
+25-JUL-20 VYMO            1578 
+
+ 10 rows selected 
+
+Date      ENTITY_FLAG COUNT(1)
+--------- ----------- --------
+26-JUL-20 CAMOL              8 
+26-JUL-20 GNG             3185 
+26-JUL-20 HDB             7224 
+26-JUL-20 IFMS               4 
+26-JUL-20 LOS             1942 
+26-JUL-20 NEWAPS          3011 
+26-JUL-20 SME             1790 
+26-JUL-20 TRA             1654 
+26-JUL-20 VC              3184 
+26-JUL-20 VYMO            1546 
+
+ 10 rows selected 
+
+Date      ENTITY_FLAG COUNT(1)
+--------- ----------- --------
+27-JUL-20 CAMOL             55 
+27-JUL-20 ECBF              15 
+27-JUL-20 GNG             6034 
+27-JUL-20 HDB            27699 
+27-JUL-20 IFMS              53 
+27-JUL-20 LOS            23007 
+27-JUL-20 NEWAPS         23690 
+27-JUL-20 SME            10334 
+27-JUL-20 TRA             6048 
+27-JUL-20 VC               419 
+27-JUL-20 VYMO            5167 
+
+ 11 rows selected 
+
+Date      ENTITY_FLAG COUNT(1)
+--------- ----------- --------
+28-JUL-20 CAMOL             29 
+28-JUL-20 ECBF              11 
+28-JUL-20 GNG             5457 
+28-JUL-20 HDB            26788 
+28-JUL-20 IFMS              44 
+28-JUL-20 LOS            21214 
+28-JUL-20 NEWAPS         23917 
+28-JUL-20 SME             9356 
+28-JUL-20 TRA             5307 
+28-JUL-20 VC              7721 
+28-JUL-20 VYMO            4643 
+
+ 11 rows selected 
+
+Date      ENTITY_FLAG COUNT(1)
+--------- ----------- --------
+29-JUL-20 CAMOL             26 
+29-JUL-20 ECBF               3 
+29-JUL-20 GNG             5215 
+29-JUL-20 HDB            25165 
+29-JUL-20 IFMS              48 
+29-JUL-20 LOS            21382 
+29-JUL-20 NEWAPS         24107 
+29-JUL-20 SME             8759 
+29-JUL-20 TRA             5253 
+29-JUL-20 VC              9712 
+29-JUL-20 VYMO            3631 
+
+ 11 rows selected 
+
+Date      ENTITY_FLAG COUNT(1)
+--------- ----------- --------
+30-JUL-20 CAMOL             18 
+30-JUL-20 ECBF              12 
+30-JUL-20 GNG             5191 
+30-JUL-20 HDB            23681 
+30-JUL-20 IFMS              72 
+30-JUL-20 LOS            18194 
+30-JUL-20 NEWAPS         21644 
+30-JUL-20 SME             8260 
+30-JUL-20 TRA             5347 
+30-JUL-20 VC              8888 
+30-JUL-20 VYMO            1794 
+
+ 11 rows selected 
+
+Date      ENTITY_FLAG COUNT(1)
+--------- ----------- --------
+31-JUL-20 CAMOL             12 
+31-JUL-20 ECBF              17 
+31-JUL-20 GNG             5419 
+31-JUL-20 HDB            17398 
+31-JUL-20 IFMS              24 
+31-JUL-20 LOS            14313 
+31-JUL-20 NEWAPS         17275 
+31-JUL-20 SME             7347 
+31-JUL-20 TRA             4768 
+31-JUL-20 VC              8802 
+31-JUL-20 VYMO            1245 
+
+ 11 rows selected 
+
+
+
+
+
+Writing Average query
+=====================
+AVG(PROCESSED_TIME/1000)
+------------------------
+0.9542097339256274042864993588569335043048 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.07050796680173038150605829271634662439 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.0965555747906663143604275053984856906 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.18559839610740673995314471075869526041 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.22155507301107754279959718026183282981 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.33949140388223408861307547986722470775 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.37885790785218175070250782037007581783 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.06141354414415939465242452199378740044 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.15962591310062432070368778909587240604 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.20325435562624842790560035510838203743 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.14627166765675891595141036933855009525 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.33663579271504396094161500749564442284 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.30694214831653749082642704995793581184 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.23689995244065891305287734013576030092 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.07157076427516166272432973544631828787 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.14277002820069052158099572157748161684 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.27780921414016124745282183042438203243 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.26818102236346237905655250629083133484 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.36369241626611734187838559548332951858 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.25544389543999011791982212255679820602 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.38575866890618738649637214695575809766 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.09451664507407198783304230270940122796 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.16113864972871113421488677344942980604 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.21595575901146040079390485946603495742 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.20906720434671873673486713642923847525 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.23080418452658829520858973814879259857 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.36558826277481383202369495547852411074 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.43327592636741366391935154281043525645 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.07238228140408657713674607005290404399 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.1456157470119521912350597609561752988 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.1644298885199511632948801332739990187 
+
+
+
+Fin eod count
+============
+SUM(IMPORT_REC_CNT)	FILE_ID
+11741076	200716235555547
+5901112	2007012113506555
+6804160	2007012301289924
+7603246	2007022248466344
+8336573	2007032322294325
+8137728	2007042351528439
+47146755	2007052029145172
+8590528	2007062326476434
+8940880	2007072251394987
+8526825	2007082257233055
+8354392	2007092244343498
+8330552	2007110051115138
+7916258	2007120047397818
+7304662	2007130351168159
+8848889	2007132243091212
+11562581	2007142304154723
+12244082	2007152301075663
+11798570	2007172257445384
+11640057	2007190108565563
+11228453	2007200121543694
+10100854	2007202245216023
+10091107	2007212257027082
+9627245	2007222253237979
+8280834	2007232252108370
+8518630	2007242250405892
+7541682	2007260102596870
+7806593	2007262332249907
+6614218	2007272245181967
+5776460	2007282255119587
+6195021	2007292257575783
+5938374	2007310010047373
+6969585	2007312251182082
+7361699	2008012349536107
+
+
+
+Tat
+====
+TOTAL_COUNT	VERIFIED	PRIORITY_ONE	LESS_THAN_4SEC	GREATER_THAN_4SEC	LESS_THAN_4SEC_1	GREATER_THAN_4SEC_1	PRIORITY_GREATER_THAN_ONE	LESS_THAN_4SEC_2	GREATER_THAN_4SEC_2	LESS_THAN_4SEC_3	GREATER_THAN_4SEC_3
+99658	99530	29717	21529	15	8121	52	69941	50890	41	18628	254
+105922	105871	32690	24090	9	8569	22	73232	54193	36	18771	181
+84505	84446	29692	22080	14	7559	39	54813	39521	40	14982	211
+27054	27050	10566	7934	3	2610	19	16488	12691	4	3765	24
+110637	110583	31420	23100	2	8297	21	79217	57605	41	21237	280
+108303	108288	30540	22374	18	8110	38	77763	56422	48	21025	253
+114026	113979	30954	22711	14	8191	38	83072	60792	35	21981	217
+114124	114105	30274	22435	16	7781	42	83850	60987	30	22518	296
+103884	103879	31205	23214	11	7931	49	72679	53003	40	19356	275
+44128	44094	14907	11567	7	3310	23	29221	18773	8	10318	88
+23640	23636	9918	7537	3	2368	10	13722	10522	4	3169	23
+111577	111535	30017	21803	11	8176	27	81560	57825	46	23357	290
+111873	110508	29097	21344	13	7688	52	82776	60604	41	20484	282
+119757	119748	28522	21077	5	7412	28	91235	69407	32	21462	325
+109804	109768	27736	20345	10	7351	30	82068	60866	35	20855	276

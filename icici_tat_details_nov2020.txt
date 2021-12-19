@@ -1,0 +1,103 @@
+Base Volume
+==========
+Cpcs
+-----
+5449243
+
+
+Doers Count
+--------
+2
+
+
+95 percentile
+============
+
+MAX(REQ_TIME)          
+---------------------- 
+0.4990
+0.5270
+0.5790
+0.5120
+0.6110
+0.5270
+0.5110
+0.5410
+0.5140
+0.5730
+0.5170
+0.6030
+0.5460
+0.4870
+
+The command(s) completed successfully.
+
+
+
+NPDS
+====
+95 PERCENTILE
+------------------
+
+MAX(REQ_TIME)          
+---------------------- 
+2.7030
+2.6490
+2.7210
+2.7030
+2.5930
+2.7580
+2.7490
+2.7310
+2.6450
+2.7110
+2.7880
+2.9320
+2.7570
+2.6330
+
+The command(s) completed successfully.
+
+
+DOERS COUNT
+=======
+2
+
+
+BASE VOLUME
+==========
+
+COUNT(*)               
+---------------------- 
+31943289
+
+The command(s) completed successfully.
+
+
+
+APS
+====
+95 PERCENTILE
+----------------
+
+MAX(REQ_TIME)          
+---------------------- 
+1.14
+1.1690
+1.1920
+1.1080
+0.9990
+1.0050
+1.0770
+0.6940
+0.7250
+
+The command(s) completed successfully.
+
+Base volume
+=============
+13627658
+
+doers count
+==========
+2

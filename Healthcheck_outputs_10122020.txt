@@ -1,0 +1,97 @@
+Yearwise
+=======
+2	2000
+3	2001
+12	2002
+56	2003
+298	2004
+1353	2005
+2096	2006
+5007	2007
+4984	2008
+46493	2009
+51705	2010
+205730	2011
+299825	2012
+359541	2013
+8511772	2014
+5267392	2015
+6933846	2016
+13064656	2017
+17979385	2018
+24527344	2019
+44991187	2020
+
+
+
+Throughput
+----------
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              56377                 95055                 11084                  1736                   605                   526                   117                    18                    40                     1              27 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              52463                100929                 15092                  2019                   607                   572                   120                    45                    46                     7              22 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              44192                 97668                 18801                  2618                   673                   679                   152                    77                    46                     7              18 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              55194                 14784                  1055                   371                    94                    66                    26                     2                    14                     1               0 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              50523                 88552                 15649                  5279                  1037                   514                   120                    27                    41                    13              22 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              96209                 74438                  5548                  1157                   457                   423                   106                    50                    35                     9              29 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              69462                 89110                  9121                  1437                   454                   463                   110                    16                    44                     6              25 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              61542                 94667                 11776                  1583                   510                   507                    98                    19                    42                     6              24 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              44287                 93276                 15469                  2107                   526                   520                   122                    22                    50                     7              19 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              27465                 53699                  9747                  1327                   413                   334                    73                    12                    27                     2              10 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              39891                  9627                   637                   230                    48                    48                    10                    28                     6                     2               4 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              49909                 55676                  6847                  2839                   543                   333                    77                    18                    18                     6              18 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              33805                 79653                 20600                  6003                  1330                   638                   131                    31                    63                     9              34 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              64706                 71118                  7039                  1505                   547                   596                   132                    29                    42                    10              29 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              53116                 68904                  6637                  1132                   385                   382                   103                    25                    26                     2              31 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              35788                 53724                  6470                   951                   303                   325                    67                    21                    29                     4              20 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              30279                 53194                  7696                  1043                   262                   289                    43                     6                    24                     3              19 
+
+

@@ -1,0 +1,232 @@
+                                                                           TMF UNDERSTANDING DOCUMENT
+                                                                           ==========================
+
+*TMF=TATA MOTOR FINANCE 
+
+Process:-
+-------
+
+->Online 
+
+->Eod
+
+Online Process:-
+----------------
+             In online process, three types of requests will be posted from the client end. They are:-
+
+1)Q(TABLE LEVEL INTEGRETION)
+
+2)A(WEB SERVICE)
+
+3)U(WEB SERVICE)
+
+Note:-
+------
+This can be shown in request_type column from PSX_REQUEST_T table.
+
+Q_type request process:-
+----------------------------
+-> Client will insert the online requests(Q) into DEDUP_INPUT table with psx_request_status=P  and the trigger will be called after successful insertion in 
+the  DEDUP_INPUT table.
+
+->Trigger will pick the requests with status ‘P’ in DEDUP_INPUT table and insert into our requests tables.
+    • PSX_REQUEST_T 
+    • PSX_CUST_DG_REQ_T
+    • PSX_CUST_ADDR_REQ_T
+    • PSX_CUST_EMAIL_REQ_T
+    • PSX_CUST_CONTACT_REQ_T
+
+->Prime match service will get the matches for the input requests and place 
+the results in PSX_RESULTS table and update the request_status with ‘C’
+in PSX_REQUEST_T table.
+
+-> LW service will insert the results data in CUSTOMER_RESULT_TABLE
+and CONTRACT_RESULT_TABLE for client purpose.
+
+A,U type request process:-
+-------------------------
+-> Client will insert the online requests(A,U) through web services into our requests table and our staging tables.
+
+    • PSX_REQUEST_T                         
+    • PSX_CUST_DG_REQ_T
+    • PSX_CUST_ADDR_REQ_T
+    • PSX_CUST_EMAIL_REQ_T
+    • PSX_CUST_CONTACT_REQ_T
+
+    • PSX_CUST_DG_STG_T
+    • PSX_CUST_ADDR_STG_T
+    • PSX_CUST_EMAIL_STG_T
+    • PSX_CUST_CONTACT_STG_T
+    
+
+Services involved in this process:-
+---------------------------------
+1)BPM Services
+2)LW Services
+3)Hashing Service
+4)PrimeMatch Service
+
+->From the request tables, data will be hashed and moved to the P_CDAP_PRIMEMATCH_ONLINE table by hashing service.
+
+
+EOD Process:-
+------------
+Three types of data will come to the EOD process, they are 
+1)Customer data 
+2)Contract data 
+3)Cross Reference data
+
+1)Customer data:-
+   ------------
+->Client will upload the customer data in BP_DATA Table.
+
+->This contains the customer related data like name, address, pan, phone no, email, aadhaar no etc..
+
+-> Work_id for this process=118
+
+->We can check the work flow of customer data in EOD in WORKSCOPE_DEFN table with work_id=118.
+
+->We can check this batch with status ‘P’  in PSX_EOD_CONTROL_T.
+
+->psx_customer_data_pull procedure is called then customer batch is picked for the EOD.
+
+Services involved in this process:-
+---------------------------------
+1)Data Pulling(LW Service)
+2)Data Transfer
+3)BPM service
+4)Cleaning & Standardization
+5)Hashing
+6)Single Record Matching(PrimeMatch)
+7)Results Formatter
+
+1)Data Pulling :-
+  ------------  
+           This service will pick the data from BP_DATA Table and move the data to the our staging tables.
+
+    • PSX_CUST_DG_STG_T
+    • PSX_CUST_ADDR_STG_T
+    • PSX_CUST_CONTACT_STG_T
+    • PSX_CUST_EMAIL_STG_T
+
+Note:-
+-----
+ All the records will have same batch_id  in staging tables.
+
+2) Data Transfer :-
+  ----------------
+          This service  will pick the records from staging tables and inserted into the  base tables.
+
+    • PSX_CUST_DG_BULK_TRG_T
+    • PSX_CUST_ADDR_BULK_TRG_T
+    • PSX_CUST_CONTACT_BULK_TRG_T
+    • PSX_CUST_EMAIL_BULK_TRG_T
+
+->In staging tables, if duplicate records are available then data transfer will pick the latest record based on the lchg_time and Cust_unq_id(Cust_id + Source_system) and generates PSX_ID for each record 
+into base.
+
+Note :-
+------
+  PSX_ID generated in Data Transfer only.
+
+3) BPM service :-
+   -----------
+           This service will manage the flow and act as a mediator between different services.
+
+->We can moniter  the EOD process in PSX_BPM_PROCESS_FLOW_T table.
+
+
+4)Cleaning&Standardization :-
+   -----------------------
+           In this process, the raw data is filtered and removes the unnecessary data.
+
+    • PSX_CUST_DG_BULK_TRG_T_UC
+    • PSX_CUST_ADDR_BULK_TRG_T_UC
+    • PSX_CUST_CONTACT_BULK_TRG_T_UC
+    • PSX_CUST_EMAIL_BULK_TRG_T_UC
+
+5) Hashing service :-
+  -----------------
+         This service is used to convert the raw data  into PrimeMatch understandable format and move data into P_CDAP_APP Table.
+
+6)  Single Record Matching:-
+   -----------------------
+        Prime Match will build/merge the objects for the requested data.
+
+7) Results Formatter :-
+  -------------------
+        It will update the status from U to C in PSX_EOD_CONTROL_T and purge the data in staging tables.  
+ 
+
+Contract data process :-
+----------------------
+
+-> Client will insert the Contract data in CONTRACT_DATA_STG Table.
+
+->This contains the contract no 
+
+-> Work_id for this process=218
+
+->We can check the work flow of Contract data in EOD in WORKSCOPE_DEFN table with work_id=218.
+
+->We can check this batch with status ‘P’  in PSX_EOD_CONTROL_T.
+
+->psx_contract_data_pull procedure is called then contract batch is picked for the EOD.
+
+->After EOD ,the data will be inserted into PSX_CONTRACT_BULK_TRG_T
+
+Services involved in this process:-
+---------------------------------
+
+1)Data pulling
+
+2)Results formatter
+
+
+-> Data Pulling:-
+   ------------
+      This service will call the procedure internally to pull the data from CONTRACT_DATA_STG and inserted into PSX_CONTRACT_BULK_TRG_T directly after successful validations done.
+
+-> Results Formatter :-
+   -----------------
+        It will update the status from U to C in PSX_EOD_CONTROL_T 
+
+
+
+Cross Reference data process :-
+----------------------------
+
+-> Client will insert the Cross Reference data in CROSSREFERENCE_DATA_STG Table.
+
+->This contains BP number,source,contract no 
+
+-> Work_id for this process=218
+
+->We can check the work flow of Cross Reference data in EOD in WORKSCOPE_DEFN table with work_id=218.
+
+->We can check this batch with status ‘P’  in PSX_EOD_CONTROL_T.
+
+->psx_CrossReference_data_pull procedure is called then contract batch is picked for the EOD.
+
+->After EOD ,the data will be inserted into PSX_CROSS_REF_BULK_TRG_T
+
+Services involved in this process:-
+---------------------------------
+
+1)Data pulling
+
+2)Results formatter
+
+-> Data Pulling:-
+   ------------
+      This service will call the procedure internally to pull the data from CROSSREFERENCE_DATA_STG and inserted into PSX_CROSS_REF_BULK_TRG_T directly after successful validations done.
+
+-> Results Formatter :-
+   -----------------
+        It will update the status from U to C in PSX_EOD_CONTROL_T 
+
+
+
+              
+
+

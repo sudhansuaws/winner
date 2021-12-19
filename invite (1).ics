@@ -1,0 +1,112 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20200803T060000Z
+DTEND:20200803T070000Z
+DTSTAMP:20200724T073607Z
+ORGANIZER;CN=hr@posidex.com:mailto:hr@posidex.com
+UID:3vp30ri7ssddht8pa16ge2d29k@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=neeraj.agarwal@posidex.com;X-NUM-GUESTS=0:mailto:neeraj.agarwal@pos
+ idex.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=g.sharath@posidex.com;X-NUM-GUESTS=0:mailto:g.sharath@posidex.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=a.anil@posidex.com;X-NUM-GUESTS=0:mailto:a.anil@posidex.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=vikas.ramini@posidex.com;X-NUM-GUESTS=0:mailto:vikas.ramini@posidex
+ .com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=saivamshi.manchana@posidex.com;X-NUM-GUESTS=0:mailto:saivamshi.manc
+ hana@posidex.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=aswini.maguluri@posidex.com;X-NUM-GUESTS=0:mailto:aswini.maguluri@p
+ osidex.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=shashank.panasa@posidex.com;X-NUM-GUESTS=0:mailto:shashank.panasa@p
+ osidex.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=saritha.miryala@posidex.com;X-NUM-GUESTS=0:mailto:saritha.miryala@p
+ osidex.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=triveni.kumari@posidex.com;X-NUM-GUESTS=0:mailto:triveni.kumari@pos
+ idex.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=bhaskarrao.mayuri@posidex.com;X-NUM-GUESTS=0:mailto:bhaskarrao.mayu
+ ri@posidex.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=srihari.kamani@posidex.com;X-NUM-GUESTS=0:mailto:srihari.kamani@pos
+ idex.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=anandavamsi.chittoor@posidex.com;X-NUM-GUESTS=0:mailto:anandavamsi.
+ chittoor@posidex.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=suresh.babu@posidex.com;X-NUM-GUESTS=0:mailto:suresh.babu@posidex.c
+ om
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=saikishore.byragouni@posidex.com;X-NUM-GUESTS=0:mailto:saikishore.b
+ yragouni@posidex.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=kalyani.kukunurpally@posidex.com;X-NUM-GUESTS=0:mailto:kalyani.kuku
+ nurpally@posidex.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=vipul.labshetty@posidex.com;X-NUM-GUESTS=0:mailto:vipul.labshetty@p
+ osidex.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=ravikanth.todeti@posidex.com;X-NUM-GUESTS=0:mailto:ravikanth.todeti
+ @posidex.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=balasubramanyam.baggam@posidex.com;X-NUM-GUESTS=0:mailto:balasubram
+ anyam.baggam@posidex.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=sudha.lingala@posidex.com;X-NUM-GUESTS=0:mailto:sudha.lingala@posid
+ ex.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=hr@posidex.com;X-NUM-GUESTS=0:mailto:hr@posidex.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=sudhansu.gouda@posidex.com;X-NUM-GUESTS=0:mailto:sudhansu.gouda@pos
+ idex.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=naveen.chindam@posidex.com;X-NUM-GUESTS=0:mailto:naveen.chindam@pos
+ idex.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=atharva.pande@posidex.com;X-NUM-GUESTS=0:mailto:atharva.pande@posid
+ ex.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=jgramprasad@posidex.com;X-NUM-GUESTS=0:mailto:jgramprasad@posidex.c
+ om
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=chagala.venkat@posidex.com;X-NUM-GUESTS=0:mailto:chagala.venkat@pos
+ idex.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=rajashekar.chetti@posidex.com;X-NUM-GUESTS=0:mailto:rajashekar.chet
+ ti@posidex.com
+X-MICROSOFT-CDO-OWNERAPPTID:-346559793
+CREATED:20200724T073605Z
+DESCRIPTION:Dear All\n\nKindly be informed that we have scheduled Induction
+  Training for the new joinees into Posidex and request the Project Managers
+  to see their team members are attending the Induction Training without fai
+ l. \n\nBelow are the details of Induction for your reference and records.\n
+ \nDate of Induction: 3rd Aug 2020\nTime: 11.30 AM to 12.30 PM\nTopic: Organ
+ ization Overview and Growth\nTrainer: Suresh Babu Chindalur\n\nThanks and r
+ egards\nHR Team\n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nPlease do not edit this section of the des
+ cription.\n\nThis event has a video call.\nJoin: https://meet.google.com/ib
+ o-bfag-nix\n(US) +1 413-829-7873 PIN: 367679680#\nView more phone numbers: 
+ https://tel.meet/ibo-bfag-nix?pin=9691871648328&hs=7\n\nView your event at 
+ https://www.google.com/calendar/event?action=VIEW&eid=M3ZwMzByaTdzc2RkaHQ4c
+ GExNmdlMmQyOWsgc3VkaGFuc3UuZ291ZGFAcG9zaWRleC5jb20&tok=MTQjaHJAcG9zaWRleC5j
+ b20yYzk5OGZjYmZjYTM1MTI1ZWRkMWNmZmJhOWJjYTk3YWMyN2Y2YTUz&ctz=Asia%2FKolkata
+ &hl=en&es=1.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20200724T073606Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Organization Overview and Growth
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

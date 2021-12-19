@@ -1,0 +1,36 @@
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              22386                  6590                   490                   192                    34                    57                    14                     0                     2                     1               1 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              66071                 73893                 11071                  3847                   756                   384                    77                    11                    39                     7              10 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              44541                 68104                 14496                  4052                   997                   450                    74                    72                    45                     6               4 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              62256                 55353                  3877                   743                   257                   256                    55                     9                    10                     5               2 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              56918                 66842                  5946                  1003                   411                   401                    82                    25                    31                     8               9 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              48259                 73445                  7199                  1163                   399                   354                    68                    21                    36                     4               5 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              18626                 22887                  2079                   270                    90                    80                     9                     6                     9                     0               0 
+
+Error starting at line 51 in command:
+select (SELECT COUNT(*) FROM PSX_REQUEST_b WHERE REQUEST_STATUS='C' AND trunc(insert_ts)=trunc(sysdate-26) AND FLOOR(PROCESSED_TIME/1000)<1)PTIME_Less_Then_One, (SELECT COUNT(*) FROM PSX_REQUEST_b WHERE REQUEST_STATUS='C' AND trunc(insert_ts)=trunc(sysdate-26) AND FLOOR(PROCESSED_TIME/1000)>=1 and FLOOR(PROCESSED_TIME/1000)<2)PTIME_BTW_1_and_2_Sec, (SELECT COUNT(*) FROM PSX_REQUEST_b WHERE REQUEST_STATUS='C' AND trunc(insert_ts)=trunc(sysdate-26) AND FLOOR(PROCESSED_TIME/1000)>=2 and FLOOR(PROCESSED_TIME/1000)<3)PTIME_BTW_2_and_3_Sec, (SELECT COUNT(*) FROM PSX_REQUEST_b WHERE REQUEST_STATUS='C' AND trunc(insert_ts)=trunc(sysdate-26) AND FLOOR(PROCESSED_TIME/1000)>=3 and FLOOR(PROCESSED_TIME/1000)<4)PTIME_BTW_3_and_4_Sec, (SELECT COUNT(*) FROM PSX_REQUEST_b WHERE REQUEST_STATUS='C' AND trunc(insert_ts)=trunc(sysdate-26) AND FLOOR(PROCESSED_TIME/1000)>=4 and FLOOR(PROCESSED_TIME/1000)<5)PTIME_BTW_4_and_5_Sec, (SELECT COUNT(*) FROM PSX_REQUEST_b WHERE REQUEST_STATUS='C' AND trunc(insert_ts)=trunc(sysdate-26) AND FLOOR(PROCESSED_TIME/1000)>=5 and FLOOR(PROCESSED_TIME/1000)<10 )PTIME_BTW_5_and_6_Sec, (SELECT COUNT(*) FROM PSX_REQUEST_b WHERE REQUEST_STATUS='C' AND trunc(insert_ts)=trunc(sysdate-26) AND FLOOR(PROCESSED_TIME/1000)>=10 and FLOOR(PROCESSED_TIME/1000)<20 )PTIME_BTW_6_and_7_Sec, (SELECT COUNT(*) FROM PSX_REQUEST_b WHERE REQUEST_STATUS='C' AND trunc(insert_ts)=trunc(sysdate-26) AND FLOOR(PROCESSED_TIME/1000)>=20 and FLOOR(PROCESSED_TIME/1000)<30)PTIME_BTW_7_and_8_Sec, (SELECT COUNT(*) FROM PSX_REQUEST_b WHERE REQUEST_STATUS='C' AND trunc(insert_ts)=trunc(sysdate-26) AND FLOOR(PROCESSED_TIME/1000)>=30 and FLOOR(PROCESSED_TIME/1000)<60)PTIME_BTW_8_and_9_Sec, (SELECT COUNT(*) FROM PSX_REQUEST_b WHERE REQUEST_STATUS='C' AND trunc(insert_ts)=trunc(sysdate-26) AND FLOOR(PROCESSED_TIME/1000)>=60 and FLOOR(PROCESSED_TIME/1000)<120)PTIME_BTW_8_and_9_Sec, (SELECT COUNT(*) FROM PSX_REQUEST_b WHERE REQUEST_STATUS='C' AND trunc(insert_ts)=trunc(sysdate-26) AND FLOOR(PROCESSED_TIME/1000)>=120)More_Then_9_Sec from dual 
+Error at Command Line:51 Column:0
+Error report:
+SQL Error: ORA-01013: user requested cancel of current operation
+01013. 00000 -  "user requested cancel of current operation"
+*Cause:    
+*Action:

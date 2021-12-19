@@ -1,0 +1,112 @@
+                                     TMF
+TEMPLATE V8
+===========
+						  
+EOD:
+====
+
+1)Customer:
+-----------
+Work id: 118
+=> customer table contain Demographic Data.
+Client Table:-  BP_DATA
+
+
+2)Contract:
+-----------
+Work id: 218
+=> contract table contain Loans related data.
+Client Table:- CONTRACT_DATA_STG
+posidex Base table: PSX_CONTRACT_BULK_TRG_T
+
+3)Crossreference:
+-----------------
+Work id: 218 
+=> crossreference table contain relation between customer and contract data.
+Client Table:- CROSSREFERENCE_STG
+
+PROCESS:
+--------
+client will put the records with batch_id in client tables and they keep the staus='P',
+then only scheduler picks the batch.
+Table:- PSX_EOD_CONTROL_T
+
+Customer EOD Stages:
+--------------------
+1)Data Pulling(i.e LWS)
+2)Data transfer
+3)Cleaning & Standardization
+4)Hashing
+5)Single record matching
+6)Result formatter(LWS)
+
+=> if the batch get error while EOD process  the batch will strucked in particular stage.
+=> Remaining batches will be pending in PSX_PENDING_CLIENT_REQ_STORE_M get stucked. 
+
+Contract & Crossreference EOD stages:
+-------------------------------------
+1)Data pulling(LWS)
+2)Result formater(LWS)
+
+=> if the batch get error while EOD process  the batch will strucked in perticular stage.
+=> Remaining batches will be pending in PSX_PENDING_CLIENT_REQ_STORE get stucked. 
+
+
+ONLINE PROCESS:
+---------------
+Online requests are 
+Q - Query
+U - Update
+A - Add
+
+=> These request are placed into DEDUPE_INPUT table.
+=> By calling the trigger(Onlile data pull procedure) request are picked into request tables.
+
+request tables are :
+--------------------
+PSX_REQUEST_T;
+PSX_CUST_DG_REQ_T;
+PSX_CUST_ADDR_REQ_T;
+PSX_CUST_CONTACT_REQ_T;
+PSX_CUST_EMAIL_REQ_T;
+
+=> after the requests got processed results will be stored in results tables.
+
+Results tables are:
+-------------------
+PSX_RESULTS_T;
+CUSTOMER_RESULT_TABLE;
+COTRACT_RESULT_TABLE;
+
+
+Online to offline moving manually:
+----------------------------------
+Tables: 
+-------
+SETS_INIT_ONLINE;(Online)
+SETS_INIT;(Offline)
+
+=> Before starting the online to offline activity do the following.
+
+* Stop the Primematch manager & Hashing Services.
+* Take the backup of initset bean which is placed in below location
+ D:/installation/hashmanager/objects/initset bean;
+ D:/installation/primematch manager/objects/initset bean;
+ 
+=> Check the count of both tables(SETS_INIT_ONLINE & SETS_INIT).
+=> Then execute the below query.
+
+begin
+insert into SETS_INIT select * from SETS_INIT_ONLINE
+end;
+
+=> Now check the count of SETS_INIT table. 
+=> Truncate table SETS_INIT_ONLINE and commit it.
+=> Now start the services Primematch manager & Hashing.
+
+=> After this process completed ask clients to post a request ,
+  to check request are processing fine or not.
+  
+=> Online to offline moving will done monthly once.
+
+=> Every sunday clients will restarting  all the services.

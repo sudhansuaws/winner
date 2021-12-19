@@ -1,0 +1,240 @@
+DUI FLAG
+===============
+COUNT(*) DUI_FLAG
+-------- --------
+ 1454883 I        
+   92660 CO       
+
+COUNT(*) DUI_FLAG
+-------- --------
+   17595 I        
+   29197 CO       
+
+COUNT(*) DUI_FLAG
+-------- --------
+    3170 I        
+   53651 CO       
+
+COUNT(*) DUI_FLAG
+-------- --------
+   22969 I        
+  105686 CO       
+
+COUNT(*) DUI_FLAG
+-------- --------
+   24395 I        
+   86105 CO       
+
+COUNT(*) DUI_FLAG
+-------- --------
+ 9289870 I        
+  149889 CO       
+
+no rows selected
+
+
+COUNT(*) DUI_FLAG
+-------- --------
+ 1568490 I        
+  183611 CO       
+
+COUNT(*) DUI_FLAG
+-------- --------
+   10257 I        
+   12863 CO       
+
+COUNT(*) DUI_FLAG
+-------- --------
+    2394 I        
+  110556 CO       
+
+COUNT(*) DUI_FLAG
+-------- --------
+   58799 I        
+  112142 CO       
+
+COUNT(*) DUI_FLAG
+-------- --------
+   63432 I        
+  220100 CO       
+
+COUNT(*) DUI_FLAG
+-------- --------
+   32439 I        
+  237847 CO       
+
+COUNT(*) DUI_FLAG
+-------- --------
+   32536 I        
+  233302 CO       
+
+COUNT(*) DUI_FLAG
+-------- --------
+ 1640391 I        
+   37119 CO       
+
+COUNT(*) DUI_FLAG
+-------- --------
+    5036 I        
+   10233 CO       
+
+COUNT(*) DUI_FLAG
+-------- --------
+   15839 I        
+   52112 CO       
+
+COUNT(*) DUI_FLAG
+-------- --------
+   40731 I        
+  131662 CO       
+
+no rows selected
+
+
+COUNT(*) DUI_FLAG
+-------- --------
+   85341 I        
+  195089 CO       
+
+COUNT(*) DUI_FLAG
+-------- --------
+   47964 I        
+  254690 CO       
+
+COUNT(*) DUI_FLAG
+-------- --------
+ 1684665 I        
+   37963 CO       
+
+COUNT(*) DUI_FLAG
+-------- --------
+    5956 I        
+   14044 CO       
+
+COUNT(*) DUI_FLAG
+-------- --------
+    3056 I        
+   51901 CO       
+
+COUNT(*) DUI_FLAG
+-------- --------
+   40001 I        
+   81166 CO       
+
+COUNT(*) DUI_FLAG
+-------- --------
+   42423 I        
+   90443 CO       
+
+COUNT(*) DUI_FLAG
+-------- --------
+   93748 I        
+   86955 CO       
+
+COUNT(*) DUI_FLAG
+-------- --------
+   91311 I        
+   96336 CO       
+
+COUNT(*) DUI_FLAG
+-------- --------
+ 1656355 I        
+   98671 CO       
+
+COUNT(*) DUI_FLAG
+-------- --------
+   39035 I        
+   49312 CO       
+
+COUNT(*) DUI_FLAG
+-------- --------
+    6368 I        
+   51935 CO       
+
+
+Writing banchmark part 1 query query(6\n)
+=================================
+MAX_INSERT
+----------
+      7306 
+
+MAX_INSERT24
+------------
+       15179 
+
+MAX_INSERT
+----------
+       592 
+
+MAX_INSERT24
+------------
+       15177 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      9276 
+
+MAX_INSERT24
+------------
+       15027 
+
+MAX_INSERT
+----------
+       925 
+
+MAX_INSERT24
+------------
+       15034 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+============================
+MAX_INSERT
+----------
+      6582 
+
+MAX_INSERT24
+------------
+       11035 
+
+MAX_INSERT
+----------
+       458 
+
+MAX_INSERT24
+------------
+       11033 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      6659 
+
+MAX_INSERT24
+------------
+        8735 
+
+MAX_INSERT
+----------
+       487 
+
+MAX_INSERT24
+------------
+        8736 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+
+
+

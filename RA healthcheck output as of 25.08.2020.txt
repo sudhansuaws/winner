@@ -1,0 +1,359 @@
+MAX_INSERT
+----------
+      4829 
+
+MAX_INSERT24
+------------
+        9706 
+
+MAX_INSERT
+----------
+       432 
+
+MAX_INSERT24
+------------
+        9706 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      2516 
+
+MAX_INSERT24
+------------
+       11044 
+
+MAX_INSERT
+----------
+       408 
+
+MAX_INSERT24
+------------
+       11045 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      3831 
+
+MAX_INSERT24
+------------
+       13262 
+
+MAX_INSERT
+----------
+       551 
+
+MAX_INSERT24
+------------
+       13262 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      4282 
+
+MAX_INSERT24
+------------
+       10498 
+
+MAX_INSERT
+----------
+       466 
+
+MAX_INSERT24
+------------
+       10509 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      4722 
+
+MAX_INSERT24
+------------
+        4759 
+
+MAX_INSERT
+----------
+       326 
+
+MAX_INSERT24
+------------
+        4759 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+       483 
+
+MAX_INSERT24
+------------
+       12207 
+
+MAX_INSERT
+----------
+       478 
+
+MAX_INSERT24
+------------
+       12213 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      4863 
+
+MAX_INSERT24
+------------
+       12834 
+
+MAX_INSERT
+----------
+       570 
+
+MAX_INSERT24
+------------
+       12834 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      4121 
+
+MAX_INSERT24
+------------
+       12868 
+
+MAX_INSERT
+----------
+       537 
+
+MAX_INSERT24
+------------
+       12885 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      4565 
+
+MAX_INSERT24
+------------
+       13239 
+
+MAX_INSERT
+----------
+       592 
+
+MAX_INSERT24
+------------
+       13240 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      4252 
+
+MAX_INSERT24
+------------
+       12032 
+
+MAX_INSERT
+----------
+       633 
+
+MAX_INSERT24
+------------
+       12031 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      4689 
+
+MAX_INSERT24
+------------
+        5088 
+
+MAX_INSERT
+----------
+       514 
+
+MAX_INSERT24
+------------
+        5089 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      1039 
+
+MAX_INSERT24
+------------
+        2356 
+
+MAX_INSERT
+----------
+       324 
+
+MAX_INSERT24
+------------
+        2356 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+       755 
+
+MAX_INSERT24
+------------
+       12326 
+
+MAX_INSERT
+----------
+       839 
+
+MAX_INSERT24
+------------
+       12321 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      3774 
+
+MAX_INSERT24
+------------
+       13496 
+
+MAX_INSERT
+----------
+       532 
+
+MAX_INSERT24
+------------
+       13498 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      4112 
+
+MAX_INSERT24
+------------
+       15325 
+
+MAX_INSERT
+----------
+       622 
+
+MAX_INSERT24
+------------
+       15326 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      4025 
+
+MAX_INSERT24
+------------
+       13089 
+
+MAX_INSERT
+----------
+       510 
+
+MAX_INSERT24
+------------
+       13085 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      4955 
+
+MAX_INSERT24
+------------
+       13177 
+
+MAX_INSERT
+----------
+       505 
+
+MAX_INSERT24
+------------
+       13181 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      5290 
+
+MAX_INSERT24
+------------
+       10335 
+
+MAX_INSERT
+----------
+       382 
+
+MAX_INSERT24
+------------
+       10344 
+
+'NEXT_LINE'
+-----------
+next_line   

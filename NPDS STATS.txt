@@ -1,0 +1,24 @@
+SELECT COUNT(1) FROM posprime.PSX_REQUEST_T WHERE REQUEST_STATUS='C' AND trunc(insert_ts)=trunc(sysdate-14)--12151
+SELECT COUNT(1) FROM posprime.PSX_REQUEST_T WHERE REQUEST_STATUS='C' AND trunc(insert_ts)=trunc(sysdate-13)--12016
+SELECT COUNT(1) FROM posprime.PSX_REQUEST_T WHERE REQUEST_STATUS='C' AND trunc(insert_ts)=trunc(sysdate-12)--12202
+SELECT COUNT(1) FROM posprime.PSX_REQUEST_T WHERE REQUEST_STATUS='C' AND trunc(insert_ts)=trunc(sysdate-11)--10264
+SELECT COUNT(1) FROM posprime.PSX_REQUEST_T WHERE REQUEST_STATUS='C' AND trunc(insert_ts)=trunc(sysdate-10)--12558
+SELECT COUNT(1) FROM posprime.PSX_REQUEST_T WHERE REQUEST_STATUS='C' AND trunc(insert_ts)=trunc(sysdate-9) --451
+SELECT COUNT(1) FROM posprime.PSX_REQUEST_T WHERE REQUEST_STATUS='C' AND trunc(insert_ts)=trunc(sysdate-8) --444
+SELECT COUNT(1) FROM posprime.PSX_REQUEST_T WHERE REQUEST_STATUS='C' AND trunc(insert_ts)=trunc(sysdate-7) --8564
+SELECT COUNT(1) FROM posprime.PSX_REQUEST_T WHERE REQUEST_STATUS='C' AND trunc(insert_ts)=trunc(sysdate-6) --13630
+SELECT COUNT(1) FROM posprime.PSX_REQUEST_T WHERE REQUEST_STATUS='C' AND trunc(insert_ts)=trunc(sysdate-5) --12855
+SELECT COUNT(1) FROM posprime.PSX_REQUEST_T WHERE REQUEST_STATUS='C' AND trunc(insert_ts)=trunc(sysdate-4) --12547
+SELECT COUNT(1) FROM posprime.PSX_REQUEST_T WHERE REQUEST_STATUS='C' AND trunc(insert_ts)=trunc(sysdate-3) --12038
+SELECT COUNT(1) FROM posprime.PSX_REQUEST_T WHERE REQUEST_STATUS='C' AND trunc(insert_ts)=trunc(sysdate-2) --12642
+SELECT COUNT(1) FROM posprime.PSX_REQUEST_T WHERE REQUEST_STATUS='C' AND trunc(insert_ts)=trunc(sysdate-1) --1009
+
+select count(1) from posprime.psx_cust_dg_bulk_trg_t;--31868357
+
+select a.start_time ,b.end_time , b.end_time-a.start_time from posprime.psx_bpm_process_flow_t a join posprime.psx_bpm_process_flow_t b on a.request_id=b.request_id and a.current_service_stage='1' and b.IS_FINAL_SERVICE='Y' and trunc(a.log_insert_ts)=trunc(sysdate-6) and a.WORK_ID=26 order by a.START_TIME;--02:46:26.7040000      
+ select a.start_time ,b.end_time , b.end_time-a.start_time from posprime.psx_bpm_process_flow_t a join posprime.psx_bpm_process_flow_t b on a.request_id=b.request_id and a.current_service_stage='1' and b.IS_FINAL_SERVICE='Y' and trunc(a.log_insert_ts)=trunc(sysdate-5) and a.WORK_ID=26 order by a.START_TIME;--03:30:06.3010000      
+ select a.start_time ,b.end_time , b.end_time-a.start_time from posprime.psx_bpm_process_flow_t a join posprime.psx_bpm_process_flow_t b on a.request_id=b.request_id and a.current_service_stage='1' and b.IS_FINAL_SERVICE='Y' and trunc(a.log_insert_ts)=trunc(sysdate-4) and a.WORK_ID=26 order by a.START_TIME;--03:18:25.5370000      
+ select a.start_time ,b.end_time , b.end_time-a.start_time from posprime.psx_bpm_process_flow_t a join posprime.psx_bpm_process_flow_t b on a.request_id=b.request_id and a.current_service_stage='1' and b.IS_FINAL_SERVICE='Y' and trunc(a.log_insert_ts)=trunc(sysdate-3) and a.WORK_ID=26 order by a.START_TIME;--03:16:46.3350000      
+ select a.start_time ,b.end_time , b.end_time-a.start_time from posprime.psx_bpm_process_flow_t a join posprime.psx_bpm_process_flow_t b on a.request_id=b.request_id and a.current_service_stage='1' and b.IS_FINAL_SERVICE='Y' and trunc(a.log_insert_ts)=trunc(sysdate-2) and a.WORK_ID=26 order by a.START_TIME;--03:19:30.9990000      
+ select a.start_time ,b.end_time , b.end_time-a.start_time from posprime.psx_bpm_process_flow_t a join posprime.psx_bpm_process_flow_t b on a.request_id=b.request_id and a.current_service_stage='1' and b.IS_FINAL_SERVICE='Y' and trunc(a.log_insert_ts)=trunc(sysdate-1) and a.WORK_ID=26 order by a.START_TIME; --04:00:52.3370000     
+ 

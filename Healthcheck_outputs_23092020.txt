@@ -1,0 +1,1971 @@
+Average Query
+================
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.13007138973933445878279779106698331855 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.42240444987775061124694376528117359413 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.16368566836831159009264511249763660427 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.35974042667685043743924454936814331343 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.03683054002050027873185995072740024097 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.14436505067148719015205445485158493373 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.28208161211521137505376693151107395895 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.25375218422889043963712491277041172366 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+0.895692545436221318910202573319447710552 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.28345068708937925028495319083539310733 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.42325637416159167726831324666330425095 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.09709288976820302386360860750836569698 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.20453576202193262249764573650475409338 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.29064186387482531900758287324459920735 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.1819271608861449064826584347194479753 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.30632173139473464735481359984431903478 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.34670513033748639167775492923672432563 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.43020639306228476624209294793408641739 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.14627359357218268822069570701877065252 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.24013540529427611337180450594790795276 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.35002182781077792886280684176626350819 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.25928072370320469637186026368973149841 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.50506918727915194346289752650176678445 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.11724118419886029322865870860099784794 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.41935620563104870134470689923908576935 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.12330049038040934101775038946487909322 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.23237535538682810984379703649195571462 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.31223330017385483586058143750987811567 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.32260621168685483779588229295321405505 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.26565390082334325636280741277120712313 
+
+AVG(PROCESSED_TIME/1000)
+------------------------
+1.22733204680814333452532152853989666695 
+
+
+
+Writing Base group query(Base Volume)
+===================================
+ENTITY_FLAG	COUNT(1)
+CAMOL	96
+ECBF	881
+FCR	941127
+FN	50728646
+GNG	42842
+HAC	539510
+HDB	9264892
+HDO	1253812
+IFMS	2060
+LOS	1243130
+NEG	10747068
+NEWAPS	2229488
+SME	1457440
+TRA	891128
+UBS	46584
+VP	35331988
+VYMO	101955
+
+
+
+Writing Request group query (data volume)
+===========================================
+no rows selected
+
+
+no rows selected
+
+
+no rows selected
+
+
+no rows selected
+
+
+no rows selected
+
+
+no rows selected
+
+
+no rows selected
+
+
+no rows selected
+
+
+no rows selected
+
+
+no rows selected
+
+
+Date     ENTITY_FLAG COUNT(1)
+-------- ----------- --------
+11-08-20 CAMOL             30 
+11-08-20 ECBF              10 
+11-08-20 GNG             7936 
+11-08-20 HDB            34874 
+11-08-20 IFMS              36 
+11-08-20 LOS            22672 
+11-08-20 NEWAPS         20164 
+11-08-20 SME            12463 
+11-08-20 TRA             7056 
+11-08-20 VC              9113 
+11-08-20 VYMO           13184 
+
+ 11 rows selected 
+
+Date     ENTITY_FLAG COUNT(1)
+-------- ----------- --------
+12-08-20 CAMOL             23 
+12-08-20 GNG             6101 
+12-08-20 HDB            28331 
+12-08-20 IFMS              37 
+12-08-20 LOS            27958 
+12-08-20 NEWAPS         21783 
+12-08-20 SME             6151 
+12-08-20 TRA             7184 
+12-08-20 VC              5517 
+12-08-20 VYMO           13368 
+
+ 10 rows selected 
+
+Date     ENTITY_FLAG COUNT(1)
+-------- ----------- --------
+13-08-20 CAMOL             24 
+13-08-20 ECBF              14 
+13-08-20 GNG             6748 
+13-08-20 HDB            31048 
+13-08-20 IFMS              44 
+13-08-20 LOS            28077 
+13-08-20 NEWAPS         23155 
+13-08-20 SME            12171 
+13-08-20 TRA             5835 
+13-08-20 VC              8326 
+13-08-20 VYMO           13573 
+
+ 11 rows selected 
+
+Date     ENTITY_FLAG COUNT(1)
+-------- ----------- --------
+14-08-20 CAMOL             18 
+14-08-20 ECBF               9 
+14-08-20 GNG             7792 
+14-08-20 HDB            31701 
+14-08-20 IFMS              49 
+14-08-20 LOS            28719 
+14-08-20 NEWAPS         25275 
+14-08-20 SME            11241 
+14-08-20 TRA             6481 
+14-08-20 VC              6234 
+14-08-20 VYMO           11817 
+
+ 11 rows selected 
+
+Date     ENTITY_FLAG COUNT(1)
+-------- ----------- --------
+15-08-20 CAMOL              3 
+15-08-20 GNG            10876 
+15-08-20 HDB             7394 
+15-08-20 IFMS               4 
+15-08-20 LOS             3464 
+15-08-20 NEWAPS          3646 
+15-08-20 SME             1338 
+15-08-20 TRA             5458 
+15-08-20 VC              6951 
+15-08-20 VYMO            4342 
+
+ 10 rows selected 
+
+Date     ENTITY_FLAG COUNT(1)
+-------- ----------- --------
+16-08-20 CAMOL              4 
+16-08-20 GNG             5224 
+16-08-20 HDB            13932 
+16-08-20 LOS             3555 
+16-08-20 NEWAPS          2276 
+16-08-20 SME             2053 
+16-08-20 TRA             2751 
+16-08-20 VC               557 
+16-08-20 VYMO            5568 
+
+ 9 rows selected 
+
+Date     ENTITY_FLAG COUNT(1)
+-------- ----------- --------
+17-08-20 CAMOL             16 
+17-08-20 ECBF              22 
+17-08-20 GNG             7041 
+17-08-20 HDB            37855 
+17-08-20 IFMS              95 
+17-08-20 LOS            29061 
+17-08-20 NEWAPS         23850 
+17-08-20 SME            12088 
+17-08-20 TRA             7260 
+17-08-20 VC               128 
+17-08-20 VYMO           12742 
+
+ 11 rows selected 
+
+Date     ENTITY_FLAG COUNT(1)
+-------- ----------- --------
+18-08-20 CAMOL             12 
+18-08-20 ECBF               2 
+18-08-20 GNG             6212 
+18-08-20 HDB            36150 
+18-08-20 IFMS              48 
+18-08-20 LOS            30703 
+18-08-20 NEWAPS         24223 
+18-08-20 SME            13299 
+18-08-20 TRA             6953 
+18-08-20 VC              8012 
+18-08-20 VYMO           14949 
+
+ 11 rows selected 
+
+Date     ENTITY_FLAG COUNT(1)
+-------- ----------- --------
+19-08-20 CAMOL             16 
+19-08-20 ECBF              12 
+19-08-20 GNG             6399 
+19-08-20 HDB            38444 
+19-08-20 IFMS              63 
+19-08-20 LOS            31074 
+19-08-20 NEWAPS         23532 
+19-08-20 SME            11375 
+19-08-20 TRA             6059 
+19-08-20 VC              7304 
+19-08-20 VYMO           15194 
+
+ 11 rows selected 
+
+Date     ENTITY_FLAG COUNT(1)
+-------- ----------- --------
+20-08-20 CAMOL             10 
+20-08-20 ECBF              20 
+20-08-20 GNG             6079 
+20-08-20 HDB            31753 
+20-08-20 IFMS              39 
+20-08-20 LOS            31555 
+20-08-20 NEWAPS         27938 
+20-08-20 SME            11551 
+20-08-20 TRA             6164 
+20-08-20 VC              9249 
+20-08-20 VYMO           13830 
+
+ 11 rows selected 
+
+Date     ENTITY_FLAG COUNT(1)
+-------- ----------- --------
+21-08-20 CAMOL             28 
+21-08-20 ECBF               6 
+21-08-20 GNG             6019 
+21-08-20 HDB            24926 
+21-08-20 IFMS              43 
+21-08-20 LOS            29377 
+21-08-20 NEWAPS         20584 
+21-08-20 SME            11437 
+21-08-20 TRA             6491 
+21-08-20 VC              7954 
+21-08-20 VYMO            9435 
+
+ 11 rows selected 
+
+Date     ENTITY_FLAG COUNT(1)
+-------- ----------- --------
+22-08-20 GNG             6316 
+22-08-20 HDB            12810 
+22-08-20 IFMS              14 
+22-08-20 LOS            10884 
+22-08-20 NEWAPS          3003 
+22-08-20 SME             3265 
+22-08-20 TRA             4652 
+22-08-20 VC              5985 
+22-08-20 VYMO            4599 
+
+ 9 rows selected 
+
+Date     ENTITY_FLAG COUNT(1)
+-------- ----------- --------
+23-08-20 CAMOL              5 
+23-08-20 ECBF               4 
+23-08-20 GNG             4438 
+23-08-20 HDB             8290 
+23-08-20 IFMS              20 
+23-08-20 LOS             3016 
+23-08-20 NEWAPS          2056 
+23-08-20 SME             1784 
+23-08-20 TRA             2362 
+23-08-20 VC               782 
+23-08-20 VYMO            5424 
+
+ 11 rows selected 
+
+Date     ENTITY_FLAG COUNT(1)
+-------- ----------- --------
+24-08-20 CAMOL             25 
+24-08-20 ECBF              69 
+24-08-20 GNG             6883 
+24-08-20 HDB            32211 
+24-08-20 IFMS              64 
+24-08-20 LOS            27007 
+24-08-20 NEWAPS         22929 
+24-08-20 SME            11014 
+24-08-20 TRA             6954 
+24-08-20 VC               224 
+24-08-20 VYMO           11278 
+
+ 11 rows selected 
+
+Date     ENTITY_FLAG COUNT(1)
+-------- ----------- --------
+25-08-20 CAMOL             21 
+25-08-20 ECBF              75 
+25-08-20 GNG             6380 
+25-08-20 HDB            32823 
+25-08-20 IFMS              38 
+25-08-20 LOS            32901 
+25-08-20 NEWAPS         23640 
+25-08-20 SME            12531 
+25-08-20 TRA             6647 
+25-08-20 VC              8133 
+25-08-20 VYMO           11450 
+
+ 11 rows selected 
+
+Date     ENTITY_FLAG COUNT(1)
+-------- ----------- --------
+26-08-20 CAMOL             17 
+26-08-20 ECBF              89 
+26-08-20 GNG             6463 
+26-08-20 HDB            32727 
+26-08-20 IFMS              79 
+26-08-20 LOS            29583 
+26-08-20 NEWAPS         23354 
+26-08-20 SME            10524 
+26-08-20 TRA             6525 
+26-08-20 VC              6814 
+26-08-20 VYMO            9404 
+
+ 11 rows selected 
+
+Date     ENTITY_FLAG COUNT(1)
+-------- ----------- --------
+27-08-20 CAMOL             14 
+27-08-20 ECBF              31 
+27-08-20 GNG             5884 
+27-08-20 HDB            31930 
+27-08-20 IFMS              63 
+27-08-20 LOS            27213 
+27-08-20 NEWAPS         20735 
+27-08-20 SME            10319 
+27-08-20 TRA             6109 
+27-08-20 VC              6912 
+27-08-20 VYMO            7515 
+
+ 11 rows selected 
+
+Date     ENTITY_FLAG COUNT(1)
+-------- ----------- --------
+28-08-20 CAMOL             41 
+28-08-20 ECBF              44 
+28-08-20 GNG             5318 
+28-08-20 HDB            28857 
+28-08-20 IFMS              43 
+28-08-20 LOS            23512 
+28-08-20 NEWAPS         20941 
+28-08-20 SME             9174 
+28-08-20 TRA             6639 
+28-08-20 VC              6582 
+28-08-20 VYMO            4539 
+
+ 11 rows selected 
+
+Date     ENTITY_FLAG COUNT(1)
+-------- ----------- --------
+29-08-20 CAMOL             19 
+29-08-20 ECBF              35 
+29-08-20 GNG             5362 
+29-08-20 HDB            21917 
+29-08-20 IFMS              48 
+29-08-20 LOS            16675 
+29-08-20 NEWAPS         19041 
+29-08-20 SME             8657 
+29-08-20 TRA             4591 
+29-08-20 VC              6659 
+29-08-20 VYMO            2792 
+
+ 11 rows selected 
+
+Date     ENTITY_FLAG COUNT(1)
+-------- ----------- --------
+30-08-20 CAMOL              6 
+30-08-20 GNG             4404 
+30-08-20 HDB            10780 
+30-08-20 IFMS              27 
+30-08-20 LOS             3132 
+30-08-20 NEWAPS          7128 
+30-08-20 SME             1367 
+30-08-20 TRA             2578 
+30-08-20 VC              6131 
+30-08-20 VYMO            1676 
+
+ 10 rows selected 
+
+Date     ENTITY_FLAG COUNT(1)
+-------- ----------- --------
+31-08-20 CAMOL             17 
+31-08-20 ECBF              76 
+31-08-20 GNG             5913 
+31-08-20 HDB            18444 
+31-08-20 IFMS              63 
+31-08-20 LOS            15479 
+31-08-20 NEWAPS         18958 
+31-08-20 SME             8278 
+31-08-20 TRA             5877 
+31-08-20 VC              2032 
+31-08-20 VYMO            4040 
+
+ 11 rows selected 
+
+
+
+Writing banchmark part 1 query query(6\n)
+==================================================
+MAX_INSERT
+----------
+      6070 
+
+MAX_INSERT24
+------------
+        6154 
+
+MAX_INSERT
+----------
+       361 
+
+MAX_INSERT24
+------------
+        6154 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+       320 
+
+MAX_INSERT24
+------------
+        2325 
+
+MAX_INSERT
+----------
+       288 
+
+MAX_INSERT24
+------------
+        2326 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+       306 
+
+MAX_INSERT24
+------------
+        8853 
+
+MAX_INSERT
+----------
+       304 
+
+MAX_INSERT24
+------------
+        8851 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      4623 
+
+MAX_INSERT24
+------------
+       13601 
+
+MAX_INSERT
+----------
+       433 
+
+MAX_INSERT24
+------------
+       13601 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      4848 
+
+MAX_INSERT24
+------------
+       11413 
+
+MAX_INSERT
+----------
+       562 
+
+MAX_INSERT24
+------------
+       11415 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      4591 
+
+MAX_INSERT24
+------------
+       13171 
+
+MAX_INSERT
+----------
+       468 
+
+MAX_INSERT24
+------------
+       13157 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+       770 
+
+MAX_INSERT24
+------------
+       13732 
+
+MAX_INSERT
+----------
+       765 
+
+MAX_INSERT24
+------------
+       13710 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      5502 
+
+MAX_INSERT24
+------------
+        7244 
+
+MAX_INSERT
+----------
+       432 
+
+MAX_INSERT24
+------------
+        7247 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      2197 
+
+MAX_INSERT24
+------------
+        2752 
+
+MAX_INSERT
+----------
+       372 
+
+MAX_INSERT24
+------------
+        2759 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      6008 
+
+MAX_INSERT24
+------------
+       24124 
+
+MAX_INSERT
+----------
+       986 
+
+MAX_INSERT24
+------------
+       24124 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      9114 
+
+MAX_INSERT24
+------------
+       15163 
+
+MAX_INSERT
+----------
+       934 
+
+MAX_INSERT24
+------------
+       15195 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      5518 
+
+MAX_INSERT24
+------------
+       13675 
+
+MAX_INSERT
+----------
+       906 
+
+MAX_INSERT24
+------------
+       13707 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      8326 
+
+MAX_INSERT24
+------------
+       13022 
+
+MAX_INSERT
+----------
+       947 
+
+MAX_INSERT24
+------------
+       13015 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      6234 
+
+MAX_INSERT24
+------------
+       14569 
+
+MAX_INSERT
+----------
+       776 
+
+MAX_INSERT24
+------------
+       14567 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      6951 
+
+MAX_INSERT24
+------------
+        6962 
+
+MAX_INSERT
+----------
+       341 
+
+MAX_INSERT24
+------------
+        6962 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+       558 
+
+MAX_INSERT24
+------------
+        3780 
+
+MAX_INSERT
+----------
+       287 
+
+MAX_INSERT24
+------------
+        3780 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+       660 
+
+MAX_INSERT24
+------------
+       13764 
+
+MAX_INSERT
+----------
+       625 
+
+MAX_INSERT24
+------------
+       13743 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      8016 
+
+MAX_INSERT24
+------------
+       19415 
+
+MAX_INSERT
+----------
+       954 
+
+MAX_INSERT24
+------------
+       19414 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      7306 
+
+MAX_INSERT24
+------------
+       15179 
+
+MAX_INSERT
+----------
+       592 
+
+
+Error starting at line 379 in command:
+select max(cnt) max_insert24 from (SELECT TO_CHAR(processed_ts,'HH24')HOUR,COUNT(*)cnt FROM PSX_REQUEST_b WHERE trunc(processed_ts)=trunc(sysdate-35 and REQUEST_STATUS='C' group by  TO_CHAR(processed_ts,'HH24') order by 1) 
+Error at Command Line:379 Column:149
+Error report:
+SQL Error: ORA-00907: missing right parenthesis
+00907. 00000 -  "missing right parenthesis"
+*Cause:    
+*Action:
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      9276 
+
+MAX_INSERT24
+------------
+       15027 
+
+MAX_INSERT
+----------
+       925 
+
+MAX_INSERT24
+------------
+       15034 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      7956 
+
+MAX_INSERT24
+------------
+       13358 
+
+MAX_INSERT
+----------
+      1677 
+
+MAX_INSERT24
+------------
+       13095 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      5986 
+
+MAX_INSERT24
+------------
+        6175 
+
+MAX_INSERT
+----------
+       363 
+
+MAX_INSERT24
+------------
+        6175 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+       801 
+
+MAX_INSERT24
+------------
+        2720 
+
+MAX_INSERT
+----------
+       327 
+
+MAX_INSERT24
+------------
+        2718 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+       891 
+
+MAX_INSERT24
+------------
+       14935 
+
+MAX_INSERT
+----------
+       988 
+
+MAX_INSERT24
+------------
+       14934 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      8133 
+
+MAX_INSERT24
+------------
+       14836 
+
+MAX_INSERT
+----------
+       834 
+
+MAX_INSERT24
+------------
+       14834 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      6816 
+
+MAX_INSERT24
+------------
+       12998 
+
+MAX_INSERT
+----------
+       877 
+
+MAX_INSERT24
+------------
+       12998 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      6913 
+
+MAX_INSERT24
+------------
+       11614 
+
+MAX_INSERT
+----------
+       887 
+
+MAX_INSERT24
+------------
+       11613 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      6582 
+
+MAX_INSERT24
+------------
+       11035 
+
+MAX_INSERT
+----------
+       458 
+
+
+Error starting at line 424 in command:
+select max(cnt) max_insert24 from (SELECT TO_CHAR(processed_ts,'HH24')HOUR,COUNT(*)cnt FROM PSX_REQUEST_b WHERE trunc(processed_ts)=trunc(sysdate-26 and REQUEST_STATUS='C' group by  TO_CHAR(processed_ts,'HH24') order by 1) 
+Error at Command Line:424 Column:149
+Error report:
+SQL Error: ORA-00907: missing right parenthesis
+00907. 00000 -  "missing right parenthesis"
+*Cause:    
+*Action:
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      6659 
+
+MAX_INSERT24
+------------
+        8735 
+
+MAX_INSERT
+----------
+       487 
+
+MAX_INSERT24
+------------
+        8736 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+      6132 
+
+MAX_INSERT24
+------------
+        6203 
+
+MAX_INSERT
+----------
+       327 
+
+MAX_INSERT24
+------------
+        6204 
+
+'NEXT_LINE'
+-----------
+next_line   
+
+MAX_INSERT
+----------
+           
+
+MAX_INSERT24
+------------
+             
+
+MAX_INSERT
+----------
+           
+
+MAX_INSERT24
+------------
+             
+
+'NEXT_LINE'
+-----------
+next_line   
+
+
+
+Writing banchmark part2 query
+====================================
+
+COUNT(1)
+--------
+   34949 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.062sec and max::211.095SEC                                                                      
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1906935701  Max_match_count:13610                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 03     
+Peak Hour: 12     
+Peak Hour: 13     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+   20450 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.095sec and max::360.38SEC                                                                       
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1687529829  Max_match_count:13450                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 13     
+Peak Hour: 12     
+Peak Hour: 14     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+   74046 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >0sec and max::301.325SEC                                                                         
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1687584336  Max_match_count:13459                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 13     
+Peak Hour: 14     
+Peak Hour: 16     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+  115216 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.015sec and max::308.28SEC                                                                       
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1906970551  Max_match_count:14350                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 16     
+Peak Hour: 17     
+Peak Hour: 15     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+  111218 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.028sec and max::322.952SEC                                                                      
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1906988207  Max_match_count:19878                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 14     
+Peak Hour: 15     
+Peak Hour: 16     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+  125021 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.032sec and max::300.919SEC                                                                      
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1907000662  Max_match_count:16348                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 12     
+Peak Hour: 11     
+Peak Hour: 17     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+  123217 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.031sec and max::477.902SEC                                                                      
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1907026983  Max_match_count:19111                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 16     
+Peak Hour: 17     
+Peak Hour: 15     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+   71650 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.041sec and max::5641.84SEC                                                                      
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1907041728  Max_match_count:76860                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 12     
+Peak Hour: 11     
+Peak Hour: 13     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+   29767 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.054sec and max::346.947SEC                                                                      
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1687994311  Max_match_count:13526                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 12     
+Peak Hour: 13     
+Peak Hour: 16     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+  156166 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.041sec and max::1962.967SEC                                                                     
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1907075324  Max_match_count:24510                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 12     
+Peak Hour: 16     
+Peak Hour: 17     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+  132841 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.031sec and max::1064.049SEC                                                                     
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1907099679  Max_match_count:39722                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 14     
+Peak Hour: 16     
+Peak Hour: 12     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+  122823 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.016sec and max::308.94SEC                                                                       
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1688288041  Max_match_count:13630                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 12     
+Peak Hour: 16     
+Peak Hour: 14     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+  131676 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.031sec and max::316.306SEC                                                                      
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1688334867  Max_match_count:13763                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 15     
+Peak Hour: 16     
+Peak Hour: 12     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+  130953 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >0sec and max::4507.664SEC                                                                        
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1907178823  Max_match_count:31658                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 16     
+Peak Hour: 17     
+Peak Hour: 12     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+   44056 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.062sec and max::59.341SEC                                                                       
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1688501872  Max_match_count:13695                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 03     
+Peak Hour: 12     
+Peak Hour: 13     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+   35971 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.126sec and max::313.983SEC                                                                      
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1907196122  Max_match_count:21933                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 13     
+Peak Hour: 12     
+Peak Hour: 11     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+  132272 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.032sec and max::854.629SEC                                                                      
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1907208486  Max_match_count:33573                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 12     
+Peak Hour: 16     
+Peak Hour: 13     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+  151289 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.015sec and max::14023.283SEC                                                                    
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1907242848  Max_match_count:66402                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 16     
+Peak Hour: 15     
+Peak Hour: 12     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+  145866 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.028sec and max::450.429SEC                                                                      
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1907261169  Max_match_count:17272                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 16     
+Peak Hour: 15     
+Peak Hour: 14     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+  141058 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.037sec and max::1160.004SEC                                                                     
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1907296250  Max_match_count:39867                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 12     
+Peak Hour: 16     
+Peak Hour: 13     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+  125757 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.031sec and max::1168.892SEC                                                                     
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1907324038  Max_match_count:39884                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 16     
+Peak Hour: 13     
+Peak Hour: 12     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+   51955 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.047sec and max::291.338SEC                                                                      
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1689045110  Max_match_count:13733                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 06     
+Peak Hour: 12     
+Peak Hour: 13     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+   28300 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.047sec and max::93.698SEC                                                                       
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1689092129  Max_match_count:13599                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 13     
+Peak Hour: 12     
+Peak Hour: 14     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+  124067 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.031sec and max::716.353SEC                                                                      
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1689134669  Max_match_count:17623                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 17     
+Peak Hour: 16     
+Peak Hour: 12     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+  141146 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.015sec and max::698.328SEC                                                                      
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1907403679  Max_match_count:14274                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 16     
+Peak Hour: 17     
+Peak Hour: 15     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+  130307 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.016sec and max::770.344SEC                                                                      
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1907432189  Max_match_count:34057                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 12     
+Peak Hour: 16     
+Peak Hour: 17     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+  119588 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.01sec and max::309.389SEC                                                                       
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1907467782  Max_match_count:13869                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 17     
+Peak Hour: 12     
+Peak Hour: 15     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+  107561 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.032sec and max::2667.349SEC                                                                     
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1907502749  Max_match_count:53847                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 15     
+Peak Hour: 12     
+Peak Hour: 16     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+   88253 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.016sec and max::314.469SEC                                                                      
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1689573010  Max_match_count:17767                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 12     
+Peak Hour: 14     
+Peak Hour: 15     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+   37287 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >.012sec and max::120.712SEC                                                                      
+
+'PSX_ID:'||PSX_ID||'MAX_MATCH_COUNT:'||CNT                                                               
+----------------------------------------------------------------------------------------------------------
+psx_id: 1689604856  Max_match_count:13667                                                                  
+
+'PEAKHOUR:'||HOUR
+-----------------
+Peak Hour: 03     
+Peak Hour: 12     
+Peak Hour: 13     
+
+'NEXT_LINE'
+-----------
+next_line   
+
+COUNT(1)
+--------
+       0 
+
+'MIN::>'||MIN(PROCESSED_TIME)/1000||'SECANDMAX::'||MAX(PROCESSED_TIME)/1000||'SEC'                    
+-------------------------------------------------------------------------------------------------------
+min:: >sec and max::SEC                                                                                 
+
+no rows selected
+
+
+no rows selected
+
+
+'NEXT_LINE'
+-----------
+next_line   
+
+
+YEAR WISE
+==========
+COUNT(*)	TO_CHAR(LCHG_TIME,'YYYY')
+2	2000
+3	2001
+12	2002
+56	2003
+298	2004
+1353	2005
+2096	2006
+5016	2007
+4984	2008
+46494	2009
+51707	2010
+205737	2011
+299839	2012
+359646	2013
+8532805	2014
+5326637	2015
+7026351	2016
+13439303	2017
+18625489	2018
+25594930	2019
+35299889	2020
+
+
+
+
+
+Throughoutput
+==================
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+               8125                 26078                  1293                   320                    67                    62                    16                     4                     2                     2               2 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              48063                 68829                 10433                  3758                   680                   363                    80                    15                    43                     1               7 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              46359                 89421                 11767                  2748                   538                   315                    84                    15                    31                     5               6 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              70945                 67777                  5254                   947                   394                   380                    71                    46                    39                     5               8 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              56171                 75744                  7116                  1091                   399                   350                   108                    26                    44                     4               5 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              42419                 70604                  9988                  1570                   527                   495                    75                    26                    34                    14               5 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              19802                 27780                  3601                   442                   126                   157                    28                    11                     5                     1               2 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+               4647                 20190                  2172                   732                   260                   243                    40                    13                     1                     2               0 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              64978                 52579                  4486                  1364                   274                   262                    64                    10                    35                     7               8 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              46767                 73192                 14780                  4738                  1028                   542                    54                    11                    17                     5              12 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              65894                 58534                  4313                   797                   300                   351                    59                    11                    37                     7               4 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              46996                 64716                  6193                   924                   354                   280                    76                    14                    18                    12               5 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              38437                 60836                  6568                   977                   310                   309                    76                    13                    21                     4              10 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              30081                 49690                  6933                   880                   270                   279                    63                    18                    35                     1               3 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              10819                 24299                  1681                   346                    57                    58                    16                     1                     7                     2               1 
+
+PTIME_LESS_THEN_ONE PTIME_BTW_1_AND_2_SEC PTIME_BTW_2_AND_3_SEC PTIME_BTW_3_AND_4_SEC PTIME_BTW_4_AND_5_SEC PTIME_BTW_5_AND_6_SEC PTIME_BTW_6_AND_7_SEC PTIME_BTW_7_AND_8_SEC PTIME_BTW_8_AND_9_SEC PTIME_BTW_8_AND_9_SEC MORE_THEN_9_SEC
+------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- --------------------- ---------------
+              35940                 38091                  4419                  2047                   274                   227                    55                    16                    19                     4               5 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
